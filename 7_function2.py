@@ -10,12 +10,15 @@ def my_sd(input):
         sum += (int(x)- mean)**2
     sum = sum / length
     return math.sqrt(sum)
+    
+
 
 #1. Input
-input = [20,23,18]
+input = [10,20,30]
 
 #2. Process
 answer = my_sd(input)
+answer = round(answer,3)
 
 #3.Output
 print(f'Answer: {answer}')
